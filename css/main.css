@@ -1,0 +1,61 @@
+/*--------------------------------------------------------- 
+# Styles Généraux 
+---------------------------------------------------------*/ 
+:root{
+    --violet-fonce: #1e102a;
+    --bleu-ocean: #5242b6;
+    --emeraude: #3bcc86;
+    --white: #fff;
+    --black: #000;
+}
+
+@font-face {
+    font-family: tommy_soft;
+    src: url(../assets/made_tommy_soft/MADE\ Tommy\ Soft\ Bold.otf.otf);
+}
+@font-face {
+    font-family: tommy;
+    src: url(../assets/made_tommy/MADE\ TOMMY\ Medium.otf);
+}
+
+h1{
+    font-size: 32px;
+    color: var(--emeraude);
+    font-weight: 900;
+    font-family: tommy_soft;
+}
+h2{
+    font-size: 28px;
+    color: var(--emeraude);
+    font-weight: 600;
+    font-family: tommy_soft;
+}
+h3{
+    font-size: 24px;
+    color: var(--bleu-ocean);
+    font-family: tommy_soft;
+}
+h4{
+    font-size: 20px;
+    color: var(--white);
+    font-family: tommy;
+}
+h5{
+    font-size: 18.8px;
+    color: var(--white);
+    font-family: tommy;
+}
+h6{
+    font-size: 16px;
+    color: var(--white  );
+    font-family: tommy;
+}
+/*---------------------------------------------------------- 
+# Section Hero  
+----------------------------------------------------------*/ 
+
+.navbar{
+    background-color: var(--violet-fonce);
+  
+  
+  }
