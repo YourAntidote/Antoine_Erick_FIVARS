@@ -1,14 +1,107 @@
-/*--------------------------------------------------------- 
-# Styles Généraux 
----------------------------------------------------------*/ 
-:root{
-    --violet-fonce: #1e102a;
-    --bleu-ocean: #5242b6;
-    --emeraude: #3bcc86;
-    --white: #fff;
-    --black: #000;
+html{
+    background-color:var(--violet-fonce);
+    width: 100%;
 }
-
+.logo{
+    max-width: 80px;
+}
+main{
+    font-family: Tommy;
+    background-color:var(--violet-fonce);
+}
+#navbarNavDropdown{
+    width: 100%;
+}
+h1{
+    font-size: 32px;
+    color: var(--emeraude);
+    font-weight: 900;
+    font-family: TommySoft;
+    background-color: var(--violet-fonce);
+}
+h2{
+    font-size: 28px;
+    color: var(--emeraude);
+    font-weight: 600;
+    font-family: tommy_soft;
+}
+h3{
+    font-size: 24px;
+    color: var(--bleu-ocean);
+    font-family: Tommy;
+}
+h4{
+    font-size: 20px;
+    color: var(--white);
+    font-family: Tommy;
+}
+h5{
+    font-size: 18.8px;
+    color: var(--white);
+    font-family: tommy;
+}
+h6{
+    font-size: 16px;
+    color: var(--white  );
+    font-family: tommy;
+}
 /*---------------------------------------------------------- 
 # Section Hero  
 ----------------------------------------------------------*/ 
+
+.navbar {
+    background-color: var(--violet-fonce);
+    border: var(--emeraude) 1px solid;
+}
+
+.hero{
+    background-color: var(--violet-fonce);
+    align-items: center;
+    height: 100%;
+    margin: 0px;
+    
+}
+
+svg{
+    max-width: 500px;
+    background-color: var(--violet-fonce);
+}
+body{
+    background-color: var(--emeraude);
+}
+
+
+.phone{
+    max-width: 250px;
+}
+
+footer{
+    background-color: var(--bleu-ocean);
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin: 0px;
+}
+.text{
+    color: var(--emeraude);
+    font-family: Tommy;
+}
+
+.lien:hover{
+    color: var(--white);
+    text-decoration: overline;
+}
+.lien:link{
+    text-decoration: none; 
+}
+
+button{
+    margin-top: 40px;
+    height: 50px;
+    background-color: var(--bleu-ocean);
+    border-radius: 50px;
+    color: var(--emeraude);
+    border: none;
+}
