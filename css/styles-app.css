@@ -1,0 +1,54 @@
+/*--------------------------------------------------------- 
+# Styles Généraux 
+---------------------------------------------------------*/ 
+:root{
+    --violet-fonce: #1e102a;
+    --bleu-ocean: #5242b6;
+    --emeraude: #3bcc86;
+    --white: #fff;
+    --black: #000;
+}
+
+html {
+    background-color: var(--violet-fonce);
+}
+
+.navbar {
+    background-color: var(--violet-fonce);
+}
+
+.navbar-toggler {
+    color: var(--emeraude);
+    background-color: var(--bleu-ocean);
+}
+
+
+.pf {
+    position: relative;
+    border-radius: 50%;
+}
+
+.offcanvas-body {
+    background-color: var(--violet-fonce);
+}
+
+.dropdown-menu {
+    background-color: var(--emeraude);
+}
+
+.btn-secondary {
+    background-color: var(--emeraude);
+}
+
+.form {
+    position: relative;
+    top: 250px;
+}
+
+footer {
+    display: flex;
+    background-color: var(--bleu-ocean);
+    margin-top: 1em;
+    height: 200px;
+    width: 100%;
+}
