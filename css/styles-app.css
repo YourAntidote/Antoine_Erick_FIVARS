@@ -7,14 +7,19 @@
     --emeraude: #3bcc86;
     --white: #fff;
     --black: #000;
+    --violet-second: #37204b;
 }
 
 html {
-    background-color: var(--violet-fonce);
+    background-color: var(--violet-second);
 }
 
 .navbar {
-    background-color: var(--violet-fonce);
+    background-color: var(--violet-second);
+    border: var(--emeraude) 1px solid;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
 .navbar-toggler {
@@ -51,4 +56,8 @@ footer {
     margin-top: 1em;
     height: 200px;
     width: 100%;
+}
+
+svg{
+    width: 100px;
 }
