@@ -27,7 +27,7 @@ h2{
     font-size: 28px;
     color: var(--emeraude);
     font-weight: 600;
-    font-family: tommy_soft;
+    font-family: TommySoft;
 }
 h3{
     font-size: 24px;
@@ -41,14 +41,14 @@ h4{
     margin: 10px 0px;
 }
 h5{
-    font-size: 18.8px;
-    color: var(--white);
-    font-family: tommy;
+    font-size: 20px;
+    color: var(--violet-fonce);
+    font-family: Tommy;
 }
 h6{
     font-size: 16px;
-    color: var(--white  );
-    font-family: tommy;
+    color: var(--black  );
+    font-family: Tommy;
 }
 /*---------------------------------------------------------- 
 # Section Hero  
@@ -60,14 +60,14 @@ h6{
 }
 
 .hero{
-    background-color: var(--violet-fonce);
+ 
     align-items: center;
     height: 750px;
     margin: 0px;
     
 }
 
-svg{
+.fivars{
     max-width: 250px;
     min-width: 150px;
     background-color: var(--violet-fonce);
@@ -84,7 +84,7 @@ body{
 
 footer{
     background-color: var(--bleu-ocean);
-    position: absolute;
+    position: relative;
     padding: 1rem;
     margin-top: 1rem;
     bottom: 0px;
@@ -122,3 +122,26 @@ iframe{
     padding: 5px;
     min-width: 300px;
 }
+
+
+
+
+.description{
+    color: var(--violet-fonce);
+}
+
+
+
+.card{
+    border: none;
+}
+
+
+.accueil{
+    height: 100vh;
+}
+@media screen and (orientation: portrait ) { 
+    .accueil { 
+        height: 1100px; 
+    }
+  }
