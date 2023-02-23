@@ -17,7 +17,14 @@
     font-family: Tommy;
     src: url(../assets/made_tommy/MADE\ TOMMY\ Regular.otf);
 }
-
+@font-face {
+    font-family: Tomthin;
+    src: url(../assets/made_tommy/MADE\ TOMMY\ Thin.otf);
+}
+@font-face {
+    font-family: TomMed;
+    src: url(../assets/made_tommy/MADE\ TOMMY\ Medium.otf);
+}
 /*---------------------------------------------------------- 
 # Section Hero  
 ----------------------------------------------------------*/ 
