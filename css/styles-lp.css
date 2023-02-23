@@ -142,10 +142,22 @@ iframe{
 
 
 
-.card{
+.carte{
     border: none;
 }
 
+.quote{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.section-testimonials .card { 
+
+
+    background-color: var(--emeraude);
+    border-radius: inner 10px;
+}
 
 .accueil{
     height: 100vh;
