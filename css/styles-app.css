@@ -61,3 +61,36 @@ footer {
 svg{
     width: 100px;
 }
+
+.boutons {
+    position: relative;
+    top: 260px;
+}
+
+.container {
+    background-color: var(--violet-second);
+}
+
+.btn {
+    position: relative;
+    left: -32px;
+    margin-right: 25px;
+    border-radius: 0px;
+}
+
+
+
+.vedette {
+    position: relative;
+    top: 280px;
+}
+
+.card-img-top {
+    height: 20vh;
+    object-fit: cover;
+    
+}
+
+h2 {
+    color: var(--emeraude);
+}
