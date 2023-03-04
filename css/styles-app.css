@@ -14,6 +14,11 @@ html {
     background-color: var(--violet-second);
 }
 
+
+body {
+    overflow-x: hidden;
+}
+
 .navbar {
     background-color: var(--violet-second);
     border: var(--emeraude) 1px solid;
@@ -93,4 +98,21 @@ svg{
 
 h2 {
     color: var(--emeraude);
+}
+
+.artist {
+    border-radius: 50%;
+}
+
+.card {
+    background-color: var(--bleu-ocean);
+    max-width: 200px;
+}
+
+.card:hover {
+    background-color: var(--emeraude);
+}
+
+#largeur {
+    width: 140%;
 }
