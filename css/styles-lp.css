@@ -134,7 +134,10 @@ iframe{
     min-width: 300px;
 }
 
-
+#fonctionnalites {
+    background-color: var(--white);
+    margin: 0px;
+}
 
 
 .description{
@@ -168,5 +171,24 @@ iframe{
     .accueil { 
         height: 1100px; 
     }
+  }
+
+  #FAQ {
+    position: relative;
+    background-color: var(--bs-dark);
+    width: 100%;
+    border-radius: 10px;
+    width: 100%;
+
+  }
+
+  .summary {
+      color: var(--bs-light);
+  }
+
+  i {
+    width: 400px;
+    height: 40px;
+    color: red;
   }
 
