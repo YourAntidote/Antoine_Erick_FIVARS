@@ -11,7 +11,6 @@ html{
 }
 main{
     font-family: Tommy;
-    background-color:var(--bs-light);
 }
 #navbarNavDropdown{
     width: 100%;
@@ -65,18 +64,23 @@ h6{
     align-items: center;
     height: 750px;
     margin: 0px;
+    background-color: var(--bs-light);
     
 }
-
+.gauche {
+    min-height: 450px;
+}
+#intro {
+    min-width:300px; 
+    margin-bottom: 20px;
+}
 .fivars{
     max-width: 250px;
     min-width: 150px;
     background-color: var(--bs-light);
-    margin-bottom: 10px;
+
 }
-body{
-    background-color: var(--bs-secondary);
-}
+
 
 
 .phone{
@@ -130,19 +134,26 @@ iframe{
     border: rgb(167, 167, 167) solid 3px;
     border-radius: 20px;
     box-shadow: 10px 10px 10px 5px var(--bs-dark);
-    padding: 5px;
+    overflow: scroll;
     min-width: 300px;
 }
 
-#fonctionnalites {
+#fonctionnalites, #FAQ {
     background-color: var(--white);
-    margin: 0px;
+    box-shadow: inset 0px 0px 20px 2px #0000003c;
+
+}
+
+.people {
+    width: 30rem;
+    box-shadow: 5px 5px 5px 0px #484848;
 }
 
 
 .description{
     color: var(--bs-light);
     font-family: Tomthin;
+    max-width: 1200px;
 }
 
 
@@ -155,6 +166,8 @@ iframe{
     position: absolute;
     top: 10px;
     left: 10px;
+    font-size: 50px;
+    color: var(--bs-secondary);
 }
 
 .section-testimonials .card { 
@@ -171,24 +184,45 @@ iframe{
     .accueil { 
         height: 1100px; 
     }
-  }
+}
 
-  #FAQ {
-    position: relative;
-    background-color: var(--bs-dark);
-    width: 100%;
-    border-radius: 10px;
-    width: 100%;
-
-  }
-
-  .summary {
+.summary {
       color: var(--bs-light);
-  }
+}
 
-  i {
-    width: 400px;
-    height: 40px;
-    color: red;
-  }
+#icon {
+    font-size: 40px;
+    color: var(--bs-dark);
+}
 
+.section-testimonials{
+    background-color: var(--fade);
+
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-primary);     
+    background-color: var(--fade);
+}
+
+#infolettre{
+    background-image: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+
+    min-width: 300px;
+    height: 100%;
+    background-position: 50% 20%;
+
+
+}
+
+.info {
+    font-size: 40px;
+}
+
+.box {
+
+    background-color: rgba(255, 255, 255, 0.7);
+ 
+}
