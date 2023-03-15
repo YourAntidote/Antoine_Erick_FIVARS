@@ -28,6 +28,26 @@
     <main data-bs-spy="scroll" data-bs-target="#navId" tabindex="0">
       <a class="pb-5 mb-5" style="position: relative; top: 10px; left: 50%;">ignorez ceci</a>
       
+      <div class="modal" id="modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-xl modal-lg modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Restez informé!</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body " >
+              <div class="contenu px-1 col justify-content-center align-items-center align-content-center text-center d-flex" style="border: solid 2px #000;">
+                <label for="email"><i class="bi bi-envelope-at-fill p-3" id="mail"></i></label>
+                <input type="email" placeholder="Votre adresse courriel!" id="email" name="email">
+            </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">M'inscrire</button>
+            </div>
+          </div>
+        </div>
+      </div>
       
       
       <!-- NAVBAR --> 
@@ -340,16 +360,16 @@
 
           <!-- SECTION INFOLETTRE -->
           <section id="infolettre" class="py-5 d-flex justify-content-center align-content-center">
-            <!--<img src="./assets/background.jpg">-->
             <div class="container-fluid d-flex justify-content-center flex-wrap align-content-center">
               <div class="row d-flex justify-content-md-end p-5 ">
                 <div class="col-12 col-md-6 d-flex flex-column align-items-center align-items-md-start justify-content-center  box p-5">
-                  <h2 class=" text-md-start text-center info">Infolettre</h2>
+                  <h2 class=" text-md-start text-center info" id="myInput">Infolettre</h2>
                   <p><h5 class="mb-4 text-md-start text-center">Abonnez-vous à notre infolettre pour recevoir des nouvelles sur les mises-à-jour et nouvelles fonctionnalités de l’appli, en plus de recevoir en primeur les détails des prochaines éditions du festival.</h5></p>
-                  <button type="button" class="btn btn-primary col-4 text-center">Je m'abonne</button>
+                  <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#modal">Je m'abonne</button>
                 </div>
               </div>
             </div> 
+            
           </section>
     </main>
 

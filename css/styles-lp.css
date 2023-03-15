@@ -194,6 +194,22 @@ iframe{
     font-size: 40px;
     color: var(--bs-dark);
 }
+#mail{
+    
+    font-size: 30px;
+    color: var(--bs-secondary);
+}
+#email{
+    height: 100%;
+    border: none;
+    
+    width: 100%;
+}
+.contenu{
+    width: 100%;
+    border: solid 2px;
+    border-radius: 10px;
+}
 
 .section-testimonials{
     background-color: var(--fade);
@@ -206,7 +222,7 @@ iframe{
 }
 
 #infolettre{
-    background-image: url(./assets/background.jpg);
+    background-image: url(../assets/background.jpg);
     background-repeat: no-repeat;
     object-fit: contain;
 
