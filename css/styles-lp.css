@@ -11,7 +11,6 @@ html{
 }
 main{
     font-family: Tommy;
-    background-color:var(--bs-light);
 }
 #navbarNavDropdown{
     width: 100%;
@@ -65,18 +64,23 @@ h6{
     align-items: center;
     height: 750px;
     margin: 0px;
+    background-color: var(--bs-light);
     
 }
-
+.gauche {
+    min-height: 450px;
+}
+#intro {
+    min-width:300px; 
+    margin-bottom: 20px;
+}
 .fivars{
     max-width: 250px;
     min-width: 150px;
     background-color: var(--bs-light);
-    margin-bottom: 10px;
+
 }
-body{
-    background-color: var(--bs-secondary);
-}
+
 
 
 .phone{
@@ -130,16 +134,28 @@ iframe{
     border: rgb(167, 167, 167) solid 3px;
     border-radius: 20px;
     box-shadow: 10px 10px 10px 5px var(--bs-dark);
-    padding: 5px;
+    overflow: scroll;
     min-width: 300px;
 }
 
+#section-view-more, #FAQ {
+    background-color: var(--white);
+    box-shadow: inset 0px 0px 20px 2px #0000003c;
 
+}
+#fonctionnalites {
+    background-color:var(--fade);
+}
+.people {
+    width: 30rem;
+    box-shadow: 5px 5px 5px 0px #484848;
+}
 
 
 .description{
     color: var(--bs-light);
     font-family: Tomthin;
+    max-width: 1200px;
 }
 
 
@@ -152,6 +168,12 @@ iframe{
     position: absolute;
     top: 10px;
     left: 10px;
+    font-size: 50px;
+    color: var(--bs-secondary);
+}
+
+.card {
+    background-color: var(--fade);
 }
 
 .section-testimonials .card { 
@@ -168,5 +190,99 @@ iframe{
     .accueil { 
         height: 1100px; 
     }
-  }
+}
 
+.summary {
+      color: var(--bs-light);
+}
+
+#icon {
+    font-size: 40px;
+    color: var(--bs-dark);
+}
+#mail{
+    
+    font-size: 30px;
+    color: var(--bs-secondary);
+}
+#email{
+    height: 100%;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.contenu{
+    width: 100%;
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.section-testimonials{
+    background-color: var(--fade);
+
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-primary);     
+    background-color: var(--fade);
+}
+
+#infolettre{
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+
+    min-width: 300px;
+    height: 100%;
+    background-position: 50% 20%;
+
+
+}
+
+.info {
+    font-size: 40px;
+}
+
+.box {
+
+    background-color: rgba(255, 255, 255, 0.7);
+ 
+}
+
+.swiperBtn {
+    --swiper-theme-color: var(--bs-secondary);
+   
+
+}
+
+ #phone-swiper {
+    max-height: 600px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    opacity: 0.50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-screenshots{
+    overflow: visible;
+}
+.swiper-slide-visible {
+    opacity: 1;
+}
+.swiper-slide-active {
+    opacity: 1;
+}
+#section-view-more {
+
+    width: 100%;
+    height: 100%;
+}
