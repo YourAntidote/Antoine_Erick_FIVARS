@@ -31,3 +31,15 @@ const swiper = new Swiper(".swiper-screenshots", {
   
 
 });
+
+
+
+
+const filters = new Swiper('.swiper-filters', {
+  // Optional parameters
+  direction: 'horizontal',
+  spaceBetween: 10,
+  loop: true,
+
+ 
+});

@@ -9,8 +9,10 @@
     <link href="./css/main.css" rel="stylesheet" type="text/css">
     <link href="./css/styles-app.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
-    <title>FIVARS - Festival of International</title>
+    <title>App</title>
 </head>
 <meta name="robots" content="noindex" />
 <body>
@@ -65,90 +67,141 @@
             </form></div>
             <div class="boutons">
             <div class="row">
-                <div class="overflow-hidden">
-                    <ul class="btn-group">
-                        <button type="button" class="btn btn-outline-primary">Toutes</button>
-                        <button type="button" class="btn btn-outline-primary">Nouvelles</button>
-                        <button type="button" class="btn btn-outline-primary">Sélections</button>
-                        <button type="button" class="btn btn-outline-primary">Artistes</button>
-                        <button type="button" class="btn btn-outline-primary">Cérémonie</button>
-                    </ul>
+                
+                  <section>
+                    
+                        
+                        
+                    
+                  </section>
+
+
+                  <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <button type="button" class="btn btn-outline-primary">Toutes</button>
+      </div>
+      <div class="swiper-slide">
+        <button type="button" class="btn btn-outline-primary">Installations interactives</button>
+      </div>
+      <div class="swiper-slide">
+        <button type="button" class="btn btn-outline-primary">Concert</button>
+      </div>
+      <div class="swiper-slide">
+        <button type="button" class="btn btn-outline-primary">Performances</button>
+      </div>
+      <div class="swiper-slide">
+        <button type="button" class="btn btn-outline-primary">AR / VR</button>
+      </div>
+      <div class="swiper-slide">
+        <button type="button" class="btn btn-outline-primary">Projections / Immersion</button>
+      </div>
+      ...
+      <div class="swiper-filters"></div>
+  </div>
+</div>
+                    
+                
+            </div>
+        </div>
+
+         
+<div class="swiper">
+ 
+  <div class="swiper-wrapper">
+      
+      <div class="swiper-slide">
+        <div class="col-4">
+          <div class="card">
+              <img src="assets/artworks/Kingdom-of-Plants-300x169.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kingdom of plants</h5>
+                <p class="card-text">Par l'artiste Iona McEwan</p>
+                <div class="d-lg-inline-block">
+                  <div class="d-lg-inline-block">
+                    <i class="bi bi-calendar"></i>
+              </div>
+              <div class="d-lg-inline-block">
+                <p class="d-lg-inline-block">19 mars 2023</p>
                 </div>
+                <i class="bi bi-clock"></i>
+                <p class="d-lg-inline-block">20h</p>
+              </div>
+              <div class="artist">
+                  <img src="assets/artists/Iona-McEwan-150x150.png" height="50px"> <a href="artwork.html">Plus d'info</a> <i class="bi bi-chevron-right"></i>
+              </div>
+                
+              </div>
             </div>
-        </div>
+      </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="col-4">
+          <div class="card">
+              <img src="assets/artworks/Diagnosia-300x169.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Diagnosia</h5>
+                <p class="card-text">Par les artistes Mengtai Zhang, Lemon Guo</p>
+                <div class="d-lg-inline-block">
+                  <div class="d-lg-inline-block">
+                    <i class="bi bi-calendar"></i>
+              </div>
+              <div class="d-lg-inline-block">
+                <p class="d-lg-inline-block">19 mars 2023</p>
+                </div>
+                <i class="bi bi-clock"></i>
+                <p class="d-lg-inline-block">20h</p>
+              </div>
+              <div class="artist">
+                  <img src="assets/artists/Mengtai-Zhang-150x150.png" height="50px">  <p>Plus d'info</p>  <i class="bi bi-chevron-right"></i>
+              </div>
+               
+              </div>
+            </div>
+      </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="col-4">
+          <div class="card">
+              <img src="assets/artworks/IAGO-poster-300x169.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Iago</h5>
+                <p class="card-text">Par l'artiste Josh Nelson Youssef</p>
+                <div class="d-lg-inline-block">
+                  <div class="d-lg-inline-block">
+                    <i class="bi bi-calendar"></i>
+              </div>
+              <div class="d-lg-inline-block">
+                <p class="d-lg-inline-block">19 mars 2023</p>
+                </div>
+                <i class="bi bi-clock"></i>
+                <p class="d-lg-inline-block">20h</p>
+              </div>
+              <div class="artist">
+                  <img src="assets/artists/Josh-Nelson-Youssef-150x150.png" height="50px">   <p>Plus d'info</p>  <i class="bi bi-chevron-right"></i>
+              </div>
+                
+              </div>
+            </div>
+      </div>
+      </div>
+      ...
+  </div>
+
+  <div class="swiper-featured-artworks"></div>
+  
+</div>
+
         <div class="vedette">
-        <div class="row" id="largeur">
+        
             <h2>En vedette</h2>
-            <div class="col-4">
-                <div class="card">
-                    <img src="assets/artworks/Kingdom-of-Plants-300x169.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Kingdom of plants</h5>
-                      <p class="card-text">Par l'artiste Iona McEwan</p>
-                      <div class="d-lg-inline-block">
-                        <div class="d-lg-inline-block">
-                          <i class="bi bi-calendar"></i>
-                    </div>
-                    <div class="d-lg-inline-block">
-                      <p class="d-lg-inline-block">19 mars 2023</p>
-                      </div>
-                      <i class="bi bi-clock"></i>
-                      <p class="d-lg-inline-block">20h</p>
-                    </div>
-                    <div class="artist">
-                        <img src="assets/artists/Iona-McEwan-150x150.png" height="50px"> <a href="artwork.html">Plus d'info</a> <i class="bi bi-chevron-right"></i>
-                    </div>
-                      
-                    </div>
-                  </div>
-            </div>
-            <div class="col-4">
-                <div class="card">
-                    <img src="assets/artworks/Diagnosia-300x169.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Diagnosia</h5>
-                      <p class="card-text">Par les artistes Mengtai Zhang, Lemon Guo</p>
-                      <div class="d-lg-inline-block">
-                        <div class="d-lg-inline-block">
-                          <i class="bi bi-calendar"></i>
-                    </div>
-                    <div class="d-lg-inline-block">
-                      <p class="d-lg-inline-block">19 mars 2023</p>
-                      </div>
-                      <i class="bi bi-clock"></i>
-                      <p class="d-lg-inline-block">20h</p>
-                    </div>
-                    <div class="artist">
-                        <img src="assets/artists/Mengtai-Zhang-150x150.png" height="50px">  <p>Plus d'info</p>  <i class="bi bi-chevron-right"></i>
-                    </div>
-                     
-                    </div>
-                  </div>
-            </div>
-            <div class="col-4">
-                <div class="card">
-                    <img src="assets/artworks/IAGO-poster-300x169.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Iago</h5>
-                      <p class="card-text">Par l'artiste Josh Nelson Youssef</p>
-                      <div class="d-lg-inline-block">
-                        <div class="d-lg-inline-block">
-                          <i class="bi bi-calendar"></i>
-                    </div>
-                    <div class="d-lg-inline-block">
-                      <p class="d-lg-inline-block">19 mars 2023</p>
-                      </div>
-                      <i class="bi bi-clock"></i>
-                      <p class="d-lg-inline-block">20h</p>
-                    </div>
-                    <div class="artist">
-                        <img src="assets/artists/Josh-Nelson-Youssef-150x150.png" height="50px">   <p>Plus d'info</p>  <i class="bi bi-chevron-right"></i>
-                    </div>
-                      
-                    </div>
-                  </div>
-            </div>
-        </div>
+            
+           
+            
+        
     </div>
 
   <div class="Autres">

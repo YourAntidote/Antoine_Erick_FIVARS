@@ -77,8 +77,8 @@ svg{
 
 .btn {
     position: relative;
-    left: -32px;
-    margin-right: 25px;
+    
+    
     border-radius: 0px;
 }
 
@@ -114,7 +114,7 @@ h2 {
 }
 
 #largeur {
-    width: 140%;
+    overflow: hidden;
 }
 
 .retour {
@@ -143,8 +143,15 @@ i {
 }
 
 
-section {
+.contenu {
     background-color: var(--white);
     width: 100%;
     border-radius: 5%;
 }
+
+.swiper-slide {
+    width: auto;
+    
+}
+
+
