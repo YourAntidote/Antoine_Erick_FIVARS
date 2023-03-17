@@ -21,7 +21,6 @@ body {
 
 .navbar {
     background-color: var(--violet-second);
-    border: var(--emeraude) 1px solid;
     justify-content: space-around;
     align-items: center;
 
@@ -118,6 +117,10 @@ h2 {
     width: 140%;
 }
 
+.retour {
+    background-color: var(--emeraude);
+    border-radius: 50%;
+}
 
 .heart {
     color: red;
@@ -126,4 +129,22 @@ h2 {
 .Autres {
    position: relative;
    margin-top: 80%;
+}
+
+
+
+h1 {
+    color: var(--emeraude);
+}
+
+
+i {
+    color: var(--bleu-ocean);
+}
+
+
+section {
+    background-color: var(--white);
+    width: 100%;
+    border-radius: 5%;
 }
