@@ -251,11 +251,10 @@ iframe{
 
 .swiperBtn {
     --swiper-theme-color: var(--bs-secondary);
-   
-
 }
 
- #phone-swiper {
+
+#phone-swiper {
     max-height: 600px;
 }
 
