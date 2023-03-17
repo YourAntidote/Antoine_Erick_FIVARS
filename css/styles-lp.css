@@ -253,9 +253,6 @@ iframe{
     --swiper-theme-color: var(--bs-secondary);
 }
 
-.accordion-button:focus{
-    border-color: green;
-}
 
 #phone-swiper {
     max-height: 600px;
